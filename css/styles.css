@@ -636,11 +636,17 @@ body {
   width: 264px;
   height: 40px;
   padding: 8px 16px;
-}
-.footer-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+.footer-input::placeholder {
+  /* font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em; */
   color: #fff;
 }
 .form-footer {
@@ -651,9 +657,11 @@ body {
 }
 .footer-btn {
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   font-weight: 500;
   font-size: 16px;
@@ -671,4 +679,7 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+icon-btn-footer. {
+  margin-left: 16px;
 }
