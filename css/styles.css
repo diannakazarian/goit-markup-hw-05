@@ -529,7 +529,7 @@ body {
   margin-bottom: 8px;
 }
 .fourth-div {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-field-label {
   padding-bottom: 4px;
@@ -596,17 +596,17 @@ body {
   + .review-form-checkbox-label
   > .review-form-custum-checkbox {
   background-color: #404bbf;
-  /* fill: #fff; */
+  fill: #fff;
   /* fill: #f4f4fd; */
   border: none;
 }
 
-.review-form-checkbox:checked
+/* .review-form-checkbox:checked
   + .review-form-checkbox-label
   > .review-form-custum-checkbox {
   background-color: #404bbf;
-  fill: #fff;
-}
+  fill: #fff; */
+
 .review-form-policy-link {
   line-height: 1.33333;
   text-decoration: underline;
