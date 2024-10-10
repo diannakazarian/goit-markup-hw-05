@@ -485,7 +485,7 @@ body {
   height: 24px;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
@@ -526,7 +526,7 @@ body {
   outline: none;
 }
 .review-form-fieled-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .review-form-field-label {
   padding-bottom: 4px;
@@ -597,16 +597,8 @@ body {
   /* fill: #f4f4fd; */
   border: none;
 }
-.review-form-checkbox:checked
-  + .review-form-checkbox-label
-  > .review-form-custum-checkbox
-  svg {
-  fill: #f4f4fd;
-}
 
-.review-form-checkbox:focus
-  + .review-form-checkbox-label
-  > .review-form-custum-checkbox {
+.review-form-checkbox:focus + .review-form-checkbox-label {
   background-color: #404bbf;
   fill: #fff;
 }
@@ -647,7 +639,6 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-submit-btn:hover,
 .review-form-submit-btn:focus,
