@@ -170,6 +170,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
+margin:0 auto; 
 }
 .order-servise-btn {
   font-weight: 500;
@@ -711,7 +712,6 @@ body {
   box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.05);
   background: #4d5ae5;
   padding-top: 8px 16px 8px 24px;
-  gap: 8px;
   border: none;
 }
 .subscribe-container {
